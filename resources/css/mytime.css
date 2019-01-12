@@ -5,7 +5,7 @@ body{
 }
 
 header{
-  display: inline-flex;
+  display: flex;
   font-family: verdana;
   position: fixed;
   align-items: center;
@@ -23,15 +23,58 @@ header{
   color: aquamarine;
   font-size: 14px;
   padding-left: 20px;
+  align-items: center;
 
 
 }
 
 .nav{
-  display: block;
+  display: inline-block;
   color: black;
   font-size: 14px;
-  align-content: flex-end;
+  padding-left: 800px;
+}
 
+.phish{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+font-size: 20px;
+font-family: georgia;
+height: 300px;
+width: 630px;
+ }
 
+ .fall{
+   background-image: image(./resources/img-story-fall.png);
+
+ }
+
+ .camera{
+   background-image: image(./resources/img-story-cameraman.png);
+ }
+
+.cat{
+  background-image: img(./resources/img-story-cat.png);
+  color: white;
+  font-size: 80px;
+  font-family:
+}
+
+.bite{
+  display: flex;
+  border-bottom: 1px solid black;
+  color: dimgray;
+  font-family: verdana;
+  font-size: 14px;
+  background-color: inherit;
+  text-align: center;
+
+}
+
+.footer{
+  display: flex;
+  background-color: aquamarine;
+  display: flex;
+  text-align: center;
+  color: white;
+  font-family: verdana;
 }
