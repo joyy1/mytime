@@ -21,47 +21,49 @@ header{
 
 }
 
-.logo{
-  width: auto;
-  height: auto;
-  color: aquamarine;
-  font-size: 14px;
-  padding-left: 20px;
-  align-items: center;
+.logo img{
+  width: 60px;
+  height: 70px;
+  margin-right: 12px;
+  margin-left:20px;
 
+}
 
+.logo span{
+font-size: 14px;
+align-items: center;
+  color: green;
+  font-weight: bold;
 }
 
 .nav{
   display: inline-block;
   color: black;
   font-size: 14px;
-  padding-left: 800px;
+  padding-left: 1000px;
+  align-items: center;
+  padding-right: 40px;
 }
 
 
 .container{
   display: flex;
   flex-flow: column wrap;
-  width: auto;
+  width: 1232px;
   margin: 0 auto 78px auto;
   padding-top: 10px;
   font-family: georgia;
-  overflow: scroll;
-  height: 1300px;
+  height: 1100px;
   justify-content: space-around;
-}
-
-div.container{
-  display: flex;
 }
 
 
 .large{
-  display: inline-flex;
+  display:flex;
   flex-flow: column wrap;
+  flex: 1 2 630px;
   width: 630px;
-  height:1300px;
+  height:1100px;
 
 }
 
@@ -77,6 +79,7 @@ font-family: georgia;
 height: 300px;
 width: 630px;
 margin-top: 115px;
+color: white;
  }
 
 
@@ -128,28 +131,37 @@ justify-content: space-between;
    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
    height: 300px;
    width: 300px;
+   color: white;
  }
 
 
  .middle{
-   display: inline-flex;
+   display: flex;
    flex-flow: column wrap;
    margin-top: 20px;
+   margin-left: 20px;
    width: 300px;
+   height: 1100px;
 
  }
+
 .fbi{
-  display: flex;
+  display:flex;
+  flex-flow: column wrap;
   width: 300px;
   font-family: georgia;
+  margin-top: 115px;
+  margin-bottom: 20px;
 
 }
-.fibs{
+.fbis{
   width:300px;
+  display: block;
 }
 
 .thing{
   display: flex;
+  flex-flow: column wrap;
   width: 300px;
 
 }
@@ -157,38 +169,61 @@ justify-content: space-between;
 .cat{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
   color: white;
-  font-size: 80px;
+  font-size: 30px;
   font-family: georgia;
   height: 300px;
+  width: 300px;
+
+}
+
+.cats{
+  width: 300px;
+  font-family: georgia;
+  display: block;
+  width: 300px;
 }
 
 
 
 .small{
   display: inline-flex;
-  width: 240px;
-  height: inherit;
+  width: 260px;
+  height: 1100px;
 
 }
 
 .bites{
-  width: 240px;
-  display: block
+  width: 260px;
+  display: flex;
+  flex-flow: column wrap;
   text-align: center;
+  margin-top: 115px;
+  margin-left: 20px;
+}
+
+.bite{
+  align-items: center;
 
 }
 
 
 .news{
   display: block;
-  border-bottom: 1px solid black;
-  color: dimgray;
-  font-family: verdana;
-  font-size: 14px;
-  background-color: inherit;
-  text-align: center;
-  width: 240px
+  padding-bottom: 30px;
+}
 
+
+
+.list{
+display: block;
+padding:11px 20px;
+border-bottom: 1px solid black;
+background-color: whiteSmoke;
+font-family: verdana;
+font-size: 14px;
+color: dimgray;
+text-align: center;
+width: 260px;
 }
 
 .footer{
