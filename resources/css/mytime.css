@@ -1,8 +1,15 @@
 body{
   background-color: white;
+  display: block;
+  width: auto;
 
 
 }
+div{
+  display: block;
+}
+
+
 
 header{
   display: flex;
@@ -10,10 +17,12 @@ header{
   position: fixed;
   align-items: center;
   font-weight: bold;
-  height: 100px;
+  height: 90px;
   width: 100%;
   font-size: 14px;
   border-bottom: 1px solid black;
+  flex-grow: 1;
+  margin: 0 auto;
 
 }
 
@@ -35,32 +44,120 @@ header{
   padding-left: 800px;
 }
 
+
+.content{
+  display: flex;
+  width: auto;
+  margin: 0 auto 78px auto;
+  padding-top: 10px;
+  font-family: georgia;
+}
+
+
+.column.large{
+  width: 630px;
+  display: flex;
+}
+
+.narative{
+  width: 630px;
+  display: block;
+  flex-direction: column;
+  margin-right: 30px;
+
+}
+
 .phish{
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
 font-size: 20px;
 font-family: georgia;
 height: 300px;
 width: 630px;
+margin-top: 115px;
  }
 
+ .next{
+ display: flex;
+ margin-top: 450px;
+ justify-content: space-between;
+ margin-left: 0;
+}
+
+.Vacation{
+  display: flex;
+  display direction: column;
+  width: 300px;
+}
+
  .fall{
+   display: block;
    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+   height: 300px;
+   width: 300px;
+
+}
+ .story{
+   display: block;
+   width: 300px;
+   font-family: georgia;
+
+ }
+
+
+ .burger{
+   display: flex;
+   display direction: column;
+   height: 300px;
 
  }
 
  .camera{
    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+   height: 300px;
+   width: 300px;
  }
 
+
+ .column.middle{
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   margin-top: 20px;
+   width: 300px;
+
+
+ }
+.fbi{
+  display: block;
+  width: 300px;
+  font-family: georgia;
+
+}
+
+ }
 .cat{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
   color: white;
   font-size: 80px;
-  font-family:
+  font-family: georgia;
+  height: 300px;
+}
+.cats{
+  width: 300px;
+  display: block;
+
 }
 
-.bite{
+
+.column.small{
   display: flex;
+  width: 240px;
+
+}
+
+
+.news{
+  display: block;
   border-bottom: 1px solid black;
   color: dimgray;
   font-family: verdana;
@@ -77,4 +174,5 @@ width: 630px;
   text-align: center;
   color: white;
   font-family: verdana;
+  height: 240px;
 }
