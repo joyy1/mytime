@@ -247,11 +247,17 @@ width: 260px;
 }
 
 .foote{
-  display: inline-block;
+  display: flex;
   align-items: center;
 }
 
-.foot{
+.foots{
+  display: flex;
+  align-items: center;
+
+}
+
+.title{
   color: white;
   font-family: verdana;
   border-right: : 2px white black;
@@ -260,7 +266,14 @@ width: 260px;
 
 }
 
-.fnav{
-  display: inline-block;
+.navi{
   color: black;
+  display: inline-block;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.mark{
+  display: inline-block;
+  text-align: center;
 }
