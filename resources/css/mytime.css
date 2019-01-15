@@ -34,6 +34,7 @@ font-size: 14px;
   color: MediumAquamarine;
   font-weight: bold;
   align-items: center;
+  text-align: center;
 }
 
 .nav{
@@ -245,18 +246,21 @@ width: 260px;
   flex-direction: column;
 }
 
+.foote{
+  display: inline-block;
+  align-items: center;
+}
+
 .foot{
   color: white;
   font-family: verdana;
-  border-right: : solid white 2px;
+  border-right: : 2px white black;
   font-size: 20px;
+  display: inline-block;
 
 }
 
-.navi{
+.fnav{
   display: inline-block;
-  padding-right: 10px;
   color: black;
-  font-size: 14px;
-
 }
