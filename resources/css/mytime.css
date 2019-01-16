@@ -18,6 +18,7 @@ header{
   border-bottom: 1px solid black;
   flex-grow: 1;
   margin: 0 auto;
+  background-color: white;
 
 }
 
@@ -70,7 +71,8 @@ font-size: 14px;
   flex-flow: column wrap;
   flex: 1 2 630px;
   width: 630px;
-  height:1100px;
+  height:1050px;
+  margin: auto;
 
 }
 
@@ -87,7 +89,7 @@ height: 300px;
 width: 630px;
 margin-top: 115px;
 color: white;
-text-align: center;
+text-align: left;
  }
 
 
@@ -151,7 +153,7 @@ justify-content: space-between;
    margin-top: 20px;
    margin-left: 20px;
    width: 300px;
-   height: 1100px;
+   height: 1050px;
 
  }
 
@@ -200,7 +202,7 @@ justify-content: space-between;
 .small{
   display: inline-flex;
   width: 260px;
-  height: 1100px;
+  height: 1050px;
 
 }
 
@@ -243,37 +245,31 @@ width: 260px;
   background-color: MediumAquamarine;
   justify-content: center;
   align-items: center;
-  height: 240px;
+  height: 260px;
   margin: auto;
   flex-flow: column wrap;
 
 }
-
-
 .foots{
-  display: block;
+  display: inline-block;
   align-items: center;
-  width: 400px;
-
 }
+
+
 
 .title{
   color: white;
-  font-family: verdana;
-  border-right: : 2px white black;
+  font-family: georgia;
   font-size: 20px;
-  display: inline-block;
+  border-right: : 2px white black;
+  padding-right: 25px;
 
 }
 
-.navi{
-  color: black;
-  display: inline-block;
-  font-size: 14px;
-  padding-left: 10px;
-}
 
 .mark{
   display: block;
   text-align: center;
+  font-family: georgia;
+  font-size: 14px;
 }
